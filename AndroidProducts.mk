@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_miami.mk
+    $(LOCAL_DIR)/derp_miami.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_miami-user \
-    aicp_miami-userdebug \
-    aicp_miami-eng
+    derp_miami-user \
+    derp_miami-userdebug \
+    derp_miami-eng
