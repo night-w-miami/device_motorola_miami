@@ -19,7 +19,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     FrameworksResMiami \
     SettingsProviderResMiami \
-    SettingsMiami
+    SystemUIResMiami \
+    SettingsResMiami
 
 # Audio
 PRODUCT_COPY_FILES += \
