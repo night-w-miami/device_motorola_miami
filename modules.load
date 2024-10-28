@@ -51,7 +51,6 @@ sensors_class.ko
 mmi_relay.ko
 touchscreen_mmi.ko
 goodix_brl_mmi.ko
-nfc_i2c.ko
 sx937x_sar.ko
 mmi_sys_temp.ko
 mm8013c_fg_mmi.ko
