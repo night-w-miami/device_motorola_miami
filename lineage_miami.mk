@@ -23,6 +23,6 @@ PRODUCT_MODEL := moto edge 30 neo
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="bangkk_g-user 14 U1TCS34M.22-64-18-3 aa936 release-keys" \
-    BuildFingerprint=motorola/bangkk_g/bangkk:11/U1TCS34.22-64-18-3/37e073:user/release-keys \
-    DeviceProduct=bangkk_g
+    BuildDesc="miami_g-user 14 U1SSMS34.31-64-4-13 9c9951-fbfe7 release-keys" \
+    BuildFingerprint=motorola/miami_g/miami:14/U1SSMS34.31-64-4-13/9c9951-fbfe7:user/release-keys \
+    DeviceProduct=miami_g
