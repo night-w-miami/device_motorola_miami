@@ -1,1 +1,1 @@
-# Device configuration files for Motorola moto g84 5G (bangkk)
+# Device configuration files for Motorola moto edge 30 neo (miami)

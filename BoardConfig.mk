@@ -14,21 +14,21 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/bangkk
+DEVICE_PATH := device/motorola/miami
 
 # Inherit from motorola sm6375-common
 include device/motorola/sm6375-common/BoardConfigCommon.mk
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := bangkk
+TARGET_BOOTLOADER_BOARD_NAME := miami
 
 # Fingerprint
-TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.bangkk
+TARGET_SURFACEFLINGER_UDFPS_LIB := //$(DEVICE_PATH):libudfps_extension.miami
 SOONG_CONFIG_qtidisplay_udfps := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE += androidboot.hab.product=bangkk
-TARGET_KERNEL_CONFIG += vendor/bangkk_defconfig
+BOARD_KERNEL_CMDLINE += androidboot.hab.product=miami
+TARGET_KERNEL_CONFIG += vendor/miami_defconfig
 
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load))
@@ -52,4 +52,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 VENDOR_SECURITY_PATCH := 2024-08-01
 
 # inherit from the proprietary version
-include vendor/motorola/bangkk/BoardConfigVendor.mk
+include vendor/motorola/miami/BoardConfigVendor.mk

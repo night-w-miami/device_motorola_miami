@@ -37,13 +37,13 @@ $(call inherit-product, device/motorola/sm6375-common/common.mk)
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResBangkk \
-    LineageSystemUIBangkk \
-    ProductFrameworksResBangkk \
-    SettingsResBangkk \
-    SettingsProviderResBangkk \
-    SystemUIResBangkk \
-    WifiResBangkk
+    FrameworksResMiami \
+    LineageSystemUIMiami \
+    ProductFrameworksResMiami \
+    SettingsResMiami \
+    SettingsProviderResMiami \
+    SystemUIResMiami \
+    WifiResMiami
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -62,7 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.bangkk \
+    android.hardware.biometrics.fingerprint@2.3-service.miami \
     com.motorola.hardware.biometric.fingerprint@1.0.vendor \
     vendor.egistec.hardware.fingerprint@4.0.vendor
 
@@ -83,7 +83,7 @@ PRODUCT_COPY_FILES += \
 
 # Lineage Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.bangkk
+    vendor.lineage.touch@1.0-service.miami
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    sensors.bangkk
+    sensors.miami
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
@@ -116,4 +116,4 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/motorola/bangkk/bangkk-vendor.mk)
+$(call inherit-product, vendor/motorola/miami/miami-vendor.mk)

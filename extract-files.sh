@@ -30,7 +30,7 @@ fi
 
 set -e
 
-export DEVICE=bangkk
+export DEVICE=miami
 export DEVICE_COMMON=sm6375-common
 export VENDOR=motorola
 export VENDOR_COMMON=${VENDOR}
