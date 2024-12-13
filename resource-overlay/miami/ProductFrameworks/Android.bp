@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "ProductFrameworksResBangkk",
+    name: "ProductFrameworksResMiami",
     sdk_version: "current",
     product_specific: true
 }
