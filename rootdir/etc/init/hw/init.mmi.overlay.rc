@@ -1,6 +1,3 @@
-# sec_nfc
-import /vendor/etc/init/hw/init.nfc.sec.rc
-   
 on post-fs
    chown system system /sys/devices/platform/soc/4804000.ufshc/clkgate_enable
    chown system system /sys/devices/platform/soc/4804000.ufshc/devfreq/4804000.ufshc/min_freq
